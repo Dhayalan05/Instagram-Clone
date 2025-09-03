@@ -1,0 +1,63 @@
+
+{
+  "posts": [
+    {
+      "id": 1,
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "src/assets/men-1.jpg"
+      },
+      "image": "src/assets/bg-1.jpg",
+      "caption": "Beautiful sunset 🌅 #Nature",
+      "likes": 120,
+      "comments": [
+        {
+          "user": "alice_wonder",
+          "comment": "Wow! Amazing shot! 📸"
+        },
+        {
+          "user": "mark_92",
+          "comment": "Where is this place?"
+        }
+      ],
+      "timestamp": "2025-02-11T14:30:00Z"
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 102,
+        "username": "sneha_arts",
+        "profile_pic": "src/assets/men-2.jpg"
+      },
+      "image": "src/assets/bg-2.jpg",
+      "caption": "Morning coffee vibes ☕✨",
+      "likes": 450,
+      "comments": [
+        {
+          "user": "ram_travel",
+          "comment": "Perfect start of the day!"
+        }
+      ],
+      "timestamp": "2025-02-12T08:00:00Z"
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": 103,
+        "username": "arun_dev",
+        "profile_pic": "src/assets/men-3.jpg"
+      },
+      "image": "src/assets/bg-3.jpg",
+      "caption": "Workout done 💪 #FitnessGoals",
+      "likes": 55,
+      "comments": [
+           {
+          "user": "ram_travel",
+          "comment": "Perfect start of the day!"
+        }
+      ],
+      "timestamp": "2025-02-13T06:15:00Z"
+    }
+  ]
+}
