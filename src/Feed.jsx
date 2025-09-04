@@ -3,6 +3,10 @@ import Stories from './Stories'
 import Posts from './Posts'
 
 function Feed() {
+
+
+
+  
   return (
     <div>
        <div><Stories/></div>
