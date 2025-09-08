@@ -1,9 +1,7 @@
-
-
 {
   "posts": [
     {
-      "id": 1,
+      "id": "1",
       "user": {
         "id": 101,
         "username": "john_doe",
@@ -25,7 +23,7 @@
       "timestamp": "2025-02-11T14:30:00Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "user": {
         "id": 102,
         "username": "sneha_arts",
@@ -43,7 +41,7 @@
       "timestamp": "2025-02-12T08:00:00Z"
     },
     {
-      "id": 3,
+      "id": "3",
       "user": {
         "id": 103,
         "username": "arun_dev",
@@ -53,7 +51,7 @@
       "caption": "Workout done 💪 #FitnessGoals",
       "likes": 55,
       "comments": [
-           {
+        {
           "user": "ram_travel",
           "comment": "Perfect start of the day!"
         }
@@ -62,71 +60,87 @@
     }
   ],
   "profile": {
-        "id": 101,
-        "username": "john_doe",
-        "profile_pic": "src/assets/men-1.jpg"
-      }, 
-      "suggestions":[
-        {
-        "id": 101,
-        "username": "john_doe",
-        "profile_pic": "src/assets/men-1.jpg"
-      },
-       {
-        "id": 102,
-        "username": "sneha_arts",
-        "profile_pic": "src/assets/men-2.jpg"
-      },
-       {
-        "id": 103,
-        "username": "arun",
-        "profile_pic": "src/assets/men-3.jpg"
-      },
-       {
-        "id": 104,
-        "username": "dev",
-        "profile_pic": "src/assets/men-3.jpg"
-      },
-       {
-        "id": 105,
-        "username": "arun_dev",
-        "profile_pic": "src/assets/men-3.jpg"
-      }
-
-      ],
-        "story": [
+    "id": 101,
+    "username": "john_doemh",
+    "profile_pic": "src/assets/men-1.jpg"
+  },
+  "suggestions": [
     {
-      "id": 1,
+      "id": "101",
+      "username": "john_doe",
+      "profile_pic": "src/assets/men-1.jpg"
+    },
+    {
+      "id": "102",
+      "username": "sneha_arts",
+      "profile_pic": "src/assets/men-2.jpg"
+    },
+    {
+      "id": "103",
+      "username": "arun",
+      "profile_pic": "src/assets/men-3.jpg"
+    },
+    {
+      "id": "104",
+      "username": "dev",
+      "profile_pic": "src/assets/men-3.jpg"
+    },
+    {
+      "id": "105",
+      "username": "arun_dev",
+      "profile_pic": "src/assets/men-3.jpg"
+    }
+  ],
+  "story": [
+    {
+      "id": "1",
       "user": {
         "id": 101,
         "username": "john_doe",
         "profile_pic": "src/assets/men-1.jpg"
       },
       "image": "/src/assets/vertical-1.jpg"
-     
-      
     },
     {
-      "id": 2,
+      "id": "2",
       "user": {
         "id": 102,
         "username": "sneha_arts",
         "profile_pic": "src/assets/men-2.jpg"
       },
       "image": "/src/assets/vertical-2.jpg",
-     
       "timestamp": "2025-02-12T08:00:00Z"
     },
     {
-      "id": 3,
+      "id": "3",
       "user": {
         "id": 103,
         "username": "arun_dev",
         "profile_pic": "src/assets/men-3.jpg"
       },
       "image": "/src/assets/vertical-3.jpg",
-     
       "timestamp": "2025-02-13T06:15:00Z"
+    }
+  ],
+  "followers": [
+    {
+      "id": 103,
+      "username": "arun_dev",
+      "profile_pic": "src/assets/men-3.jpg"
+    },
+    {
+      "id": 102,
+      "username": "sneha_arts",
+      "profile_pic": "src/assets/men-2.jpg"
+    },
+    {
+      "id": 101,
+      "username": "john_doe",
+      "profile_pic": "src/assets/men-1.jpg"
+    },
+    {
+      "id": "101",
+      "username": "john_doe"
     }
   ]
 }
